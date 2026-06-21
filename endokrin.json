@@ -1,0 +1,17 @@
+[
+  { "kategori": "endokrin", "sub": "Glandula Utama", "tanya": "Kelenjar 'Master of Gland' di dasar otak pengontrol kelenjar lain", "jawab": "Glandula Pituitari (Hipofisis)" },
+  { "kategori": "endokrin", "sub": "Glandula Utama", "tanya": "Kelenjar berbentuk kupu-kupu di leher bagian depan", "jawab": "Glandula Thyroidea (Kelenjar Gondok)" },
+  { "kategori": "endokrin", "sub": "Glandula Utama", "tanya": "Empat kelenjar kecil di belakang kelenjar tiroid", "jawab": "Glandula Parathyroidea" },
+  { "kategori": "endokrin", "sub": "Glandula Utama", "tanya": "Kelenjar di atas ginjal (anak ginjal) penghasil hormon stres", "jawab": "Glandula Suprarenalis (Adrenal)" },
+  { "kategori": "endokrin", "sub": "Glandula Utama", "tanya": "Kelenjar di dalam otak berbentuk biji pinus penghasil melatonin", "jawab": "Glandula Pinealis" },
+  { "kategori": "endokrin", "sub": "Glandula Utama", "tanya": "Kelenjar di belakang tulang dada yang berperan dalam imun sel T", "jawab": "Glandula Thymus" },
+  { "kategori": "endokrin", "sub": "Hormon Tiroid", "tanya": "Hormon tiroid utama yang mengatur kecepatan metabolisme tubuh", "jawab": "Tiroksin (T4) & Triiodotironin (T3)" },
+  { "kategori": "endokrin", "sub": "Pankreas", "tanya": "Bagian spesifik pankreas yang berfungsi sebagai kelenjar endokrin", "jawab": "Pulau-pulau Langerhans (Insulae Langerhan)" },
+  { "kategori": "endokrin", "sub": "Hormon Pankreas", "tanya": "Hormon penurun kadar glukosa darah dengan memasukkannya ke sel", "jawab": "Insulin (Dihasilkan Sel Beta Pankreas)" },
+  { "kategori": "endokrin", "sub": "Hormon Pankreas", "tanya": "Hormon peningkat kadar gula darah dengan merombak glikogen", "jawab": "Glukagon (Dihasilkan Sel Alfa Pankreas)" },
+  { "kategori": "endokrin", "sub": "Hormon Adrenal", "tanya": "Hormon 'fight or flight' peningkat detak jantung saat stres/takut", "jawab": "Epinefrin (Adrenalin)" },
+  { "kategori": "endokrin", "sub": "Hormon Reproduksi", "tanya": "Hormon kelamin utama pada laki-laki yang diproduksi di testis", "jawab": "Testosteron" },
+  { "kategori": "endokrin", "sub": "Hormon Reproduksi", "tanya": "Hormon kelamin wanita pengatur siklus menstruasi & ciri sekunder", "jawab": "Estrogen & Progesteron" },
+  { "kategori": "endokrin", "sub": "Hormon Hipofisis", "tanya": "Hormon pelancar produksi ASI pada ibu menyusui", "jawab": "Prolaktin" },
+  { "kategori": "endokrin", "sub": "Hormon Hipofisis", "tanya": "Hormon yang memicu kontraksi rahim saat proses melahirkan", "jawab": "Oksitosin" }
+]
