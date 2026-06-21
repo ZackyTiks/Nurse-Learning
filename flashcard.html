@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flashcards Anatomi Fisiologi - Nurse Teaching</title>
-    
     <script src="https://cdn.tailwindcss.com"></script>
-    
     <style>
         .perspective { perspective: 1000px; }
         .transform-style-3d { transform-style: preserve-3d; }
@@ -14,15 +12,15 @@
         .rotate-y-180 { transform: rotateY(180deg); }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col">
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col antialiased">
 
     <header class="bg-teal-700 text-white p-5 shadow-md">
         <div class="max-w-5xl mx-auto flex justify-between items-center">
-            <a href="index.html" class="group block text-center sm:text-left transition">
+            <a href="/" class="group block text-center sm:text-left transition">
                 <h1 class="text-2xl font-bold group-hover:text-teal-100">Nurse Teaching 🩺</h1>
                 <p class="text-xs text-teal-100 mt-0.5 group-hover:text-teal-200">Platform Belajar Anatomi Keperawatan</p>
             </a>
-            <a href="index.html" class="bg-teal-900 hover:bg-teal-950 px-4 py-2 rounded-lg text-sm font-semibold transition shadow-sm">Kembali ke Beranda</a>
+            <a href="/" class="bg-teal-900 hover:bg-teal-950 px-4 py-2 rounded-lg text-sm font-semibold transition shadow-sm">Kembali ke Beranda</a>
         </div>
     </header>
 
@@ -39,16 +37,16 @@
             </div>
 
             <div class="flex flex-wrap gap-2" id="kategori-container">
-                <button onclick="filterSistem('semua')" id="btn-semua" class="filter-btn bg-teal-600 text-white px-4 py-2 rounded-xl text-sm font-semibold shadow-sm transition cursor-pointer">✨ Semua Acak</button>
-                <button onclick="filterSistem('rangka')" id="btn-rangka" class="filter-btn bg-white text-slate-600 border border-slate-200 px-4 py-2 rounded-xl text-sm font-semibold hover:bg-slate-100 transition cursor-pointer">🦴 Rangka</button>
-                <button onclick="filterSistem('pencernaan')" id="btn-pencernaan" class="filter-btn bg-white text-slate-600 border border-slate-200 px-4 py-2 rounded-xl text-sm font-semibold hover:bg-slate-100 transition cursor-pointer">🥩 Pencernaan</button>
-                <button onclick="filterSistem('kardio')" id="btn-kardio" class="filter-btn bg-white text-slate-600 border border-slate-200 px-4 py-2 rounded-xl text-sm font-semibold hover:bg-slate-100 transition cursor-pointer">❤️ Kardio</button>
-                <button onclick="filterSistem('respirasi')" id="btn-respirasi" class="filter-btn bg-white text-slate-600 border border-slate-200 px-4 py-2 rounded-xl text-sm font-semibold hover:bg-slate-100 transition cursor-pointer">🫁 Respirasi</button>
-                <button onclick="filterSistem('saraf')" id="btn-saraf" class="filter-btn bg-white text-slate-600 border border-slate-200 px-4 py-2 rounded-xl text-sm font-semibold hover:bg-slate-100 transition cursor-pointer">🧠 Persarafan</button>
-                <button onclick="filterSistem('urinaria')" id="btn-urinaria" class="filter-btn bg-white text-slate-600 border border-slate-200 px-4 py-2 rounded-xl text-sm font-semibold hover:bg-slate-100 transition cursor-pointer">💧 Urinaria</button>
-                <button onclick="filterSistem('integumen')" id="btn-integumen" class="filter-btn bg-white text-slate-600 border border-slate-200 px-4 py-2 rounded-xl text-sm font-semibold hover:bg-slate-100 transition cursor-pointer">🛡️ Integumen</button>
-                <button onclick="filterSistem('otot')" id="btn-otot" class="filter-btn bg-white text-slate-600 border border-slate-200 px-4 py-2 rounded-xl text-sm font-semibold hover:bg-slate-100 transition cursor-pointer">💪 Otot</button>
-                <button onclick="filterSistem('endokrin')" id="btn-endokrin" class="filter-btn bg-white text-slate-600 border border-slate-200 px-4 py-2 rounded-xl text-sm font-semibold hover:bg-slate-100 transition cursor-pointer">🦋 Endokrin</button>
+                <button onclick="filterSistem('semua')" id="btn-semua" class="filter-btn bg-teal-600 text-white px-4 py-2 rounded-xl text-sm font-semibold shadow-sm transition">✨ Semua Acak</button>
+                <button onclick="filterSistem('rangka')" id="btn-rangka" class="filter-btn bg-white text-slate-600 border border-slate-200 px-4 py-2 rounded-xl text-sm font-semibold hover:bg-slate-100 transition">Bone Rangka</button>
+                <button onclick="filterSistem('pencernaan')" id="btn-pencernaan" class="filter-btn bg-white text-slate-600 border border-slate-200 px-4 py-2 rounded-xl text-sm font-semibold hover:bg-slate-100 transition">🥩 Pencernaan</button>
+                <button onclick="filterSistem('kardio')" id="btn-kardio" class="filter-btn bg-white text-slate-600 border border-slate-200 px-4 py-2 rounded-xl text-sm font-semibold hover:bg-slate-100 transition">❤️ Kardio</button>
+                <button onclick="filterSistem('respirasi')" id="btn-respirasi" class="filter-btn bg-white text-slate-600 border border-slate-200 px-4 py-2 rounded-xl text-sm font-semibold hover:bg-slate-100 transition">🫁 Respirasi</button>
+                <button onclick="filterSistem('saraf')" id="btn-saraf" class="filter-btn bg-white text-slate-600 border border-slate-200 px-4 py-2 rounded-xl text-sm font-semibold hover:bg-slate-100 transition">🧠 Persarafan</button>
+                <button onclick="filterSistem('urinaria')" id="btn-urinaria" class="filter-btn bg-white text-slate-600 border border-slate-200 px-4 py-2 rounded-xl text-sm font-semibold hover:bg-slate-100 transition">💧 Urinaria</button>
+                <button onclick="filterSistem('integumen')" id="btn-integumen" class="filter-btn bg-white text-slate-600 border border-slate-200 px-4 py-2 rounded-xl text-sm font-semibold hover:bg-slate-100 transition">🛡️ Integumen</button>
+                <button onclick="filterSistem('otot')" id="btn-otot" class="filter-btn bg-white text-slate-600 border border-slate-200 px-4 py-2 rounded-xl text-sm font-semibold hover:bg-slate-100 transition">💪 Otot</button>
+                <button onclick="filterSistem('endokrin')" id="btn-endokrin" class="filter-btn bg-white text-slate-600 border border-slate-200 px-4 py-2 rounded-xl text-sm font-semibold hover:bg-slate-100 transition">🦋 Endokrin</button>
             </div>
         </section>
 
@@ -60,7 +58,6 @@
     </footer>
 
     <script src="data.js"></script>
-
     <script>
         const container = document.getElementById('flashcard-container');
         const searchInput = document.getElementById('search-input');
@@ -72,15 +69,14 @@
 
         let kategoriAktif = 'semua';
 
-        function flipCard(cardWrapper) {
-            const innerCard = cardWrapper.querySelector('.inner-card');
-            innerCard.classList.toggle('rotate-y-180');
-        }
+        const flipCard = cardWrapper => {
+            cardWrapper.querySelector('.inner-card').classList.toggle('rotate-y-180');
+        };
 
-        function renderCards(dataList) {
+        const renderCards = dataList => {
             container.innerHTML = ''; 
             
-            if(dataList.length === 0) {
+            if (dataList.length === 0) {
                 container.innerHTML = `
                     <div class="col-span-full text-center py-12 bg-white rounded-xl border border-dashed border-slate-300 text-slate-400 text-sm">
                         Data istilah tidak ditemukan. Coba ketik kata kunci lain!
@@ -89,7 +85,7 @@
                 return;
             }
 
-            dataList.forEach((item) => {
+            dataList.forEach(item => {
                 const emoji = emojiMap[item.kategori] || '🩺';
                 const cardHTML = `
                     <div class="w-full h-44 perspective cursor-pointer group" onclick="flipCard(this)">
@@ -108,19 +104,19 @@
                 `;
                 container.insertAdjacentHTML('beforeend', cardHTML);
             });
-        }
+        };
 
-        function updateTombolAktif(kategori) {
+        const updateTombolAktif = kategori => {
             document.querySelectorAll('.filter-btn').forEach(btn => {
-                btn.className = "filter-btn bg-white text-slate-600 border border-slate-200 px-4 py-2 rounded-xl text-sm font-semibold hover:bg-slate-100 transition cursor-pointer";
+                btn.className = "filter-btn bg-white text-slate-600 border border-slate-200 px-4 py-2 rounded-xl text-sm font-semibold hover:bg-slate-100 transition";
             });
             const btnAktif = document.getElementById(`btn-${kategori}`);
-            if(btnAktif) {
-                btnAktif.className = "filter-btn bg-teal-600 text-white px-4 py-2 rounded-xl text-sm font-semibold shadow-sm transition cursor-pointer";
+            if (btnAktif) {
+                btnAktif.className = "filter-btn bg-teal-600 text-white px-4 py-2 rounded-xl text-sm font-semibold shadow-sm transition";
             }
-        }
+        };
 
-        function filterSistem(kategori) {
+        const filterSistem = kategori => {
             kategoriAktif = kategori;
             searchInput.value = ''; 
             updateTombolAktif(kategori);
@@ -137,12 +133,12 @@
             }
 
             renderCards(dataFiltered);
-        }
+        };
 
-        function cariKartu() {
+        const cariKartu = () => {
             const keyword = searchInput.value.toLowerCase().trim();
-            
             let dataFiltered = [...KUMPULAN_FLASHCARDS];
+
             if (kategoriAktif !== 'semua') {
                 dataFiltered = dataFiltered.filter(item => item.kategori === kategoriAktif);
             }
@@ -156,28 +152,20 @@
             }
 
             renderCards(dataFiltered);
-        }
+        };
 
-        document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", () => {
             if (typeof KUMPULAN_FLASHCARDS !== 'undefined') {
                 filterSistem('semua');
             } else {
                 container.innerHTML = `<div class="text-red-500 font-bold p-4">Error: Gagal memuat file data.js!</div>`;
             }
         });
-    </script>
 
-    <script>
-        document.addEventListener('contextmenu', function(e) {
-            e.preventDefault();
-        });
-
-        document.addEventListener('keydown', function(e) {
-            if ((e.ctrlKey || e.metaKey) && e.key === 'c') {
-                e.preventDefault();
-            }
+        document.addEventListener('contextmenu', e => e.preventDefault());
+        document.addEventListener('keydown', e => {
+            if ((e.ctrlKey || e.metaKey) && e.key === 'c') e.preventDefault();
         });
     </script>
-
 </body>
 </html>
