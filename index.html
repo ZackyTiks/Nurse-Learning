@@ -124,9 +124,11 @@
         <p>&copy; 2026 Nurse Teaching. Developed by <strong>Zacky Ricky</strong>.</p>
     </footer>
 
-    <script src="data.js"></script>
+  <script src="data.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", () => {
+            alert("Halo! Web ini masih dalam proses pengembangan dan fiturnya belum stabil ya. Kalau nemu bug atau error, harap maklum. Thank you!");
+
             const el = document.getElementById('total-hafalan');
             if (typeof KUMPULAN_FLASHCARDS !== 'undefined') {
                 el.innerText = KUMPULAN_FLASHCARDS.length;
